@@ -7,12 +7,12 @@ defmodule Ecto.Hstore.Mixfile do
     [app: :ecto_hstore,
      version: @version,
      elixir: "~> 1.0",
-     deps: deps,
+     deps: deps(),
      test_paths: ["test"],
 
      # Hex
-     description: description,
-     package: package,
+     description: description(),
+     package: package(),
 
      # Docs
      name: "Ecto.Hstore",
